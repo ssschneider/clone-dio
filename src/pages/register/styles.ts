@@ -4,8 +4,9 @@ export const StyledCadastro = styled.section `
     width: 100%;
     max-width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    align-items: flex-start;
     flex-wrap: wrap;
 `
 
@@ -13,7 +14,7 @@ export const FormWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 `
 
 export const Title = styled.h2`
@@ -22,6 +23,7 @@ export const Title = styled.h2`
     line-height: 44px;
     width: 390px;
     text-align: justify;
+    margin-top: 50px;
 `
 
 export const TitleHighlight = styled.h2`
@@ -45,7 +47,7 @@ export const Terms = styled.p`
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    width: 370px;
+    width: 350px;
     text-align: justify;
     color: #f1f1f195;
     margin: 27px 0 11px;

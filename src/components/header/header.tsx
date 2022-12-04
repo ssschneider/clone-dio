@@ -14,6 +14,10 @@ const Header = ({autenticado}: IHeader) => {
         navigate("/login")
     }
 
+    const handleRegister = () => {
+        navigate("/cadastro")
+    }
+
     return (
         <Wrapper>
             <StyledHeader>
@@ -37,7 +41,7 @@ const Header = ({autenticado}: IHeader) => {
                         <>
                             <MenuRight href="#" onClick={handleClickHome}>Home</MenuRight>
                             <Button label="Entrar" onClick={handleOpenLogin}/>
-                            <Button label="Cadastrar"/>
+                            <Button label="Cadastrar" onClick={handleRegister}/>
                         </>
                     )}
                 </Row>

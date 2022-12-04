@@ -41,7 +41,7 @@ export const Cadastro = () => {
 		control,
 		handleSubmit,
 		formState: { errors },
-	} = useForm({
+	} = useForm<IFormData>({
 		resolver: yupResolver(schema),
 		mode: "onChange",
 	});
@@ -105,7 +105,7 @@ export const Cadastro = () => {
 								name="password"
 							/>
 							<Button
-								label="Entrar"
+								label="Criar minha conta grátis"
 								variant="secondary"
 								type="submit"
 							/>
