@@ -1,6 +1,8 @@
 # Clone DIO
 Projeto de um clone das páginas de navegação da DIO, incluindo a Homepage, Login, Feed e Cadastro, que era o terceiro desafio do Bootcamp Orange Tech+.
 
+![Página de Cadastro](public/images/Screenshot_17.png)
+
 ----
 
 ## 👩‍💻 O Projeto
